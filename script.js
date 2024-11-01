@@ -49,6 +49,9 @@ function resetall() {
 function rainbowBackground(){
     document.getElementById("body0").classList.add("rainbow-light");
 }
+function resetBackgroundRb(){
+  document.getElementById("body0").classlist.remove("rainbow-light");
+}
 const audio = new Audio("http://soundbible.com/grab.php?id=1950&type=mp3");
 const buttons = document.querySelectorAll("button");
 
