@@ -19,6 +19,7 @@ function addTitle() {
   } else {
     alert('Password Incorrect.. Please Reload Page To Try Again');
     document.body.style.background = 'red';
+    document.getElementById("button1").remove();
   }
 }
 function redoTitle() {
