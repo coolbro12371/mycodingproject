@@ -45,3 +45,11 @@ function resetall() {
   document.body.style.background = 'none';
   valpp.value = '';
 }
+const audio = new Audio("http://soundbible.com/grab.php?id=1950&type=mp3");
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});
