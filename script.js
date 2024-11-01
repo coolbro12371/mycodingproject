@@ -44,6 +44,7 @@ function resetall() {
   addTitle2.textContent = 'Enter The Correct Password';
   document.body.style.background = 'none';
   valpp.value = '';
+  document.getElementById("button1").onclick = addTitle;
 }
 const audio = new Audio("http://soundbible.com/grab.php?id=1950&type=mp3");
 const buttons = document.querySelectorAll("button");
