@@ -46,6 +46,9 @@ function resetall() {
   valpp.value = '';
   document.getElementById("button1").onclick = addTitle;
 }
+function rainbowBackground(){
+    document.body.classList.add("rainbow-light");
+}
 const audio = new Audio("http://soundbible.com/grab.php?id=1950&type=mp3");
 const buttons = document.querySelectorAll("button");
 
