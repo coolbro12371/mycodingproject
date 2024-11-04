@@ -7,7 +7,7 @@ function addTitle() {
     document.body.style.background = 'green';
     document.getElementById('button1').onclick = function() {
       const val1 = valpp.value;
-      if (addTitle2.textContent === 'Correct Password') {
+      if (valpp.value === 'Password') {
         alert('Error 404: Same Password');
         addTitle2.textContent = 'Error 404: Same Password';
         setTimeout(redoTitle, 3000);
@@ -31,7 +31,7 @@ function redoTitle() {
       document.body.style.background = 'green';
       document.getElementById('button1').onclick = function() {
         const val1 = valpp.value;
-        if (addTitle2.textContent === 'Correct Password') {
+        if (valpp.value === 'Password' ) {
           alert('Error 404: Same Password');
           addTitle2.textContent = 'Error 404: Same Password';
           setTimeout(redoTitle, 3000);
