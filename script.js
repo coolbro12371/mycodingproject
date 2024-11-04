@@ -20,6 +20,7 @@ function addTitle() {
     alert('Password Incorrect.. Please Reload Page To Try Again');
     document.body.style.background = 'red';
     document.getElementById("button1").remove();
+    document.getElementById("button2").remove();
   }
 }
 function redoTitle() {
